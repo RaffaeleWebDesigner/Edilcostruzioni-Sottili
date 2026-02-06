@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edilcostruzioni Sottili S.r.l. | Impresa Edile in Valdarno</title>
+  <meta name="description" content="Edilcostruzioni Sottili S.r.l. (Marco Sottili) - Impresa edile in Valdarno: ristrutturazioni chiavi in mano, edilizia generale, manutenzioni per privati, attività e condomini. Contatto rapido via telefono, WhatsApp o form." />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Ribbon -->
+  <div class="ribbon">
+    <div class="container ribbon__inner">
+      <div class="ribbon__left">
+        <span class="pill">10+ anni</span>
+        <span class="muted">Impresa edile · Valdarno · Preventivi rapidi</span>
+      </div>
+      <div class="ribbon__right">
+        <a class="link" href="tel:+393667491699">📞 366 749 1699</a>
+        <span class="dot">•</span>
+        <a class="link" href="https://wa.me/393667491699" target="_blank" rel="noreferrer">💬 WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#">
+        <div class="brand__mark">
+          <img src="img/hero.jpeg" alt="Edilcostruzioni Sottili S.r.l.">
+        </div>
+        <div class="brand__text">
+          <strong>Edilcostruzioni Sottili S.r.l.</strong>
+          <span>Marco Sottili</span>
+        </div>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#servizi">Servizi</a>
+        <a href="#metodo">Metodo</a>
+        <a href="#lavori">Lavori</a>
+        <a href="#contatti" class="btn btn--primary">Richiedi preventivo</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Apri menu">☰</button>
+    </div>
+
+    <div class="mobile" id="mobile">
+      <div class="container mobile__inner">
+        <a href="#servizi">Servizi</a>
+        <a href="#metodo">Metodo</a>
+        <a href="#lavori">Lavori</a>
+        <a href="#contatti" class="btn btn--primary btn--full">Richiedi preventivo</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <div class="kicker">Impresa edile con esperienza reale</div>
+        <h1>Ristrutturazioni e lavori edili fatti bene, con tempi chiari.</h1>
+        <p class="lead">
+          Edilcostruzioni Sottili S.r.l. (Marco Sottili) opera in Valdarno con un obiettivo semplice:
+          lavori curati, comunicazione diretta e consegna ordinata.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="tel:+393667491699">📞 Chiama ora</a>
+          <a class="btn btn--outline" href="https://wa.me/393667491699" target="_blank" rel="noreferrer">💬 Preventivo su WhatsApp</a>
+        </div>
+
+        <div class="hero__facts">
+          <div class="fact">
+            <strong>10+</strong>
+            <span>Anni di attività</span>
+          </div>
+          <div class="fact">
+            <strong>Chiavi in mano</strong>
+            <span>Unico referente</span>
+          </div>
+          <div class="fact">
+            <strong>Privati · Attività · Condomini</strong>
+            <span>Interventi su misura</span>
+          </div>
+        </div>
+
+        <div class="hero__promise">
+          <strong>Promessa semplice:</strong>
+          <span class="muted">preventivo chiaro, tempi concordati, lavori puliti e verifiche finali.</span>
+        </div>
+      </div>
+
+      <div class="hero__panel">
+        <div class="panel">
+          <div class="panel__top">
+            <h3>Richiesta rapida</h3>
+            <p class="muted">Compila: ricevi risposta via telefono o WhatsApp.</p>
+          </div>
+
+          <!-- FORM EMAIL REALE: FormSubmit (nessun backend) -->
+          <form class="form" id="quickForm" action="https://formsubmit.co/marcosottili88@gmail.com" method="POST">
+            <!-- Impostazioni FormSubmit -->
+            <input type="hidden" name="_subject" value="Nuova richiesta preventivo - Sito Edilcostruzioni Sottili" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <!-- Se vuoi, dopo metti una tua pagina di grazie: crea thank-you.html e sblocca la riga sotto -->
+            <!-- <input type="hidden" name="_next" value="https://tuodominio.it/thank-you.html" /> -->
+
+            <label>
+              Nome
+              <input type="text" name="Nome" placeholder="Nome e cognome" required>
+            </label>
+
+            <label>
+              Telefono
+              <input type="tel" name="Telefono" placeholder="Numero di telefono" required>
+            </label>
+
+            <label>
+              Tipo di lavoro
+              <select name="Tipo di lavoro" required>
+                <option value="" disabled selected>Scegli...</option>
+                <option>Ristrutturazione completa</option>
+                <option>Bagno / Cucina</option>
+                <option>Ripristini / Manutenzione</option>
+                <option>Edilizia generale</option>
+                <option>Altro</option>
+              </select>
+            </label>
+
+            <label>
+              Messaggio (facoltativo)
+              <textarea name="Messaggio" rows="3" placeholder="Zona, metratura, urgenza, ecc."></textarea>
+            </label>
+
+            <button class="btn btn--primary btn--full" type="submit">Invia richiesta</button>
+            <p class="small muted" id="quickNote">
+              Inviando accetti l’informativa privacy.
+              <a class="inline" href="privacy.html">Leggi qui</a>.
+            </p>
+          </form>
+
+          <div class="panel__bottom">
+            <div class="miniCard">
+              <span class="miniCard__icon">📍</span>
+              <div>
+                <strong>Zona</strong>
+                <p class="muted">Valdarno e aree limitrofe</p>
+              </div>
+            </div>
+
+            <div class="miniCard">
+              <span class="miniCard__icon">🧾</span>
+              <div>
+                <strong>Preventivo</strong>
+                <p class="muted">Sopralluogo e valutazione tecnica</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- spazio foto -->
+        <div class="photo">
+          <img src="img/hero.jpeg" alt="Impresa edile - lavori e ristrutturazioni in Valdarno">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section" id="servizi">
+    <div class="container">
+      <div class="section__head">
+        <h2>Servizi</h2>
+        <p class="muted">Interventi concreti, comunicati bene. Niente promesse vaghe.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card__badge">01</div>
+          <h3>Ristrutturazioni complete</h3>
+          <p class="muted">Gestione lavori, coordinamento e finiture. Dalla demolizione alla consegna.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__badge">02</div>
+          <h3>Chiavi in mano</h3>
+          <p class="muted">Un referente unico: stato lavori, tempi e costi sempre chiari.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__badge">03</div>
+          <h3>Edilizia generale</h3>
+          <p class="muted">Opere murarie, cartongesso, intonaci, pavimenti, ripristini.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__badge">04</div>
+          <h3>Bagni e cucine</h3>
+          <p class="muted">Rifacimenti completi con cura delle finiture e soluzioni pratiche.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__badge">05</div>
+          <h3>Manutenzioni</h3>
+          <p class="muted">Interventi mirati: infiltrazioni, crepe, ripristini e sistemazioni.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__badge">06</div>
+          <h3>Sopralluogo e consulenza</h3>
+          <p class="muted">Valutazione tecnica, consigli onesti e preventivo comprensibile.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Method / Process -->
+  <section class="section section--tint" id="metodo">
+    <div class="container">
+      <div class="section__head">
+        <h2>Come lavoriamo</h2>
+        <p class="muted">Metodo semplice: meno problemi, meno ritardi, meno “non lo sapevo”.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="step">
+          <div class="step__num">1</div>
+          <div class="step__body">
+            <h3>Contatto e obiettivo</h3>
+            <p class="muted">Capisco cosa vuoi ottenere, e quali sono tempi e priorità.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step__num">2</div>
+          <div class="step__body">
+            <h3>Sopralluogo</h3>
+            <p class="muted">Valutazione sul posto: misure, stato, criticità e soluzioni.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step__num">3</div>
+          <div class="step__body">
+            <h3>Preventivo chiaro</h3>
+            <p class="muted">Voci comprensibili e lavori concordati. Niente sorprese creative.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step__num">4</div>
+          <div class="step__body">
+            <h3>Esecuzione e controllo</h3>
+            <p class="muted">Lavori ordinati, aggiornamenti e controllo qualità sui dettagli.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step__num">5</div>
+          <div class="step__body">
+            <h3>Consegna</h3>
+            <p class="muted">Pulizia, verifica finale e supporto se serve anche dopo.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ctaBox">
+        <div>
+          <h3>Preventivo veloce su WhatsApp</h3>
+          <p class="muted">Invia 2 foto + zona + descrizione breve: rispondiamo rapidamente.</p>
+        </div>
+        <a class="btn btn--primary" href="https://wa.me/393667491699" target="_blank" rel="noreferrer">💬 Scrivi su WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Works -->
+  <section class="section" id="lavori">
+    <div class="container">
+      <div class="section__head">
+        <h2>Lavori</h2>
+        <p class="muted">Mettiamo foto reali: aumentano fiducia e contatti.</p>
+      </div>
+
+      <div class="gallery">
+        <figure class="shot">
+          <div class="shot__img">
+            <img src="img/primadopo.png" alt="Impresa edile - lavori e ristrutturazioni in Valdarno">
+          </div>
+          <figcaption>
+            <strong>Ristrutturazione interna</strong>
+            <span class="muted">Finiture e ripristini</span>
+          </figcaption>
+        </figure>
+
+        <figure class="shot">
+          <div class="shot__img">
+            <img src="img/primolavoro.jpg" alt="Impresa edile - lavori e ristrutturazioni in Valdarno">
+            <div class="shot__ph">img/lavoro2.jpg</div>
+          </div>
+          <figcaption>
+            <strong>Ambiente residenziale</strong>
+            <span class="muted">Cartongesso e tinteggiatura</span>
+          </figcaption>
+        </figure>
+
+        <figure class="shot">
+          <div class="shot__img">
+            <img src="img/primadopo2.png" alt="Impresa edile - lavori e ristrutturazioni in Valdarno">
+            <div class="shot__ph">img/lavoro3.jpg</div>
+          </div>
+          <figcaption>
+            <strong>Ripristino locale</strong>
+            <span class="muted">Preparazione e intervento mirato</span>
+          </figcaption>
+        </figure>
+
+        <figure class="shot">
+          <div class="shot__img">
+            <img src="img/hero.jpeg" alt="Impresa edile - lavori e ristrutturazioni in Valdarno">
+            <div class="shot__ph">img/lavoro4.jpg</div>
+          </div>
+          <figcaption>
+            <strong>Manutenzione</strong>
+            <span class="muted">Il nostro logo</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section--tint" id="contatti">
+    <div class="container">
+      <div class="section__head">
+        <h2>Contatti</h2>
+        <p class="muted">Chiamata, WhatsApp o messaggio: scegli il modo più comodo.</p>
+      </div>
+
+      <div class="contact">
+        <div class="contact__box">
+          <h3>Contatto diretto</h3>
+          <p class="muted">Il modo più veloce per fissare un sopralluogo.</p>
+
+          <div class="contact__actions">
+            <a class="btn btn--primary btn--full" href="tel:+393667491699">📞 366 749 1699</a>
+            <a class="btn btn--outline btn--full" href="https://wa.me/393667491699" target="_blank" rel="noreferrer">💬 WhatsApp</a>
+          </div>
+
+          <div class="info">
+            <div class="info__row"><strong>Zona:</strong> <span class="muted">Valdarno</span></div>
+            <div class="info__row"><strong>Email:</strong> <span class="muted">marcosottili88@gmail.com</span></div>
+            <div class="info__row"><strong>Referente:</strong> <span class="muted">Marco Sottili</span></div>
+          </div>
+        </div>
+
+        <div class="contact__box">
+          <h3>Invia un messaggio</h3>
+          <p class="muted">Questo form invia una mail reale. Senza backend.</p>
+
+          <form class="form" id="contactForm" action="https://formsubmit.co/marcosottili88@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Nuovo messaggio dal sito - Edilcostruzioni Sottili" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+
+            <label>
+              Nome
+              <input type="text" name="Nome" placeholder="Nome e cognome" required>
+            </label>
+
+            <label>
+              Telefono
+              <input type="tel" name="Telefono" placeholder="Numero di telefono" required>
+            </label>
+
+            <label>
+              Messaggio
+              <textarea name="Messaggio" rows="4" placeholder="Descrivi il lavoro e la zona..." required></textarea>
+            </label>
+
+            <button class="btn btn--primary btn--full" type="submit">Invia</button>
+            <p class="small muted" id="formNote">
+              Inviando accetti l’informativa privacy.
+              <a class="inline" href="privacy.html">Leggi qui</a>.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<footer class="footer">
+  <div class="container footer__inner">
+
+    <div class="footer__left">
+      <strong>Edilcostruzioni Sottili S.r.l.</strong>
+      <span class="muted">Impresa edile in Valdarno · Ristrutturazioni · Manutenzioni</span>
+    </div>
+
+    <div class="footer__right muted">
+      © <span id="year"></span> · <a class="inline" href="privacy.html">Privacy</a>
+    </div>
+
+    <div class="dev-signature">
+      Sito web realizzato da
+      <a href="raffaele-web-designer.netlify.app" target="_blank" rel="noreferrer">
+        Raffaele Web Design
+      </a>
+    </div>
+
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

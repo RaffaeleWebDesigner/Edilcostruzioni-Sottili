@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | Edilcostruzioni Sottili S.r.l.</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ribbon">
+    <div class="container ribbon__inner">
+      <div class="ribbon__left">
+        <span class="pill">Privacy</span>
+        <span class="muted">Edilcostruzioni Sottili S.r.l.</span>
+      </div>
+      <div class="ribbon__right">
+        <a class="link" href="index.html">← Torna al sito</a>
+      </div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Informativa Privacy</h2>
+        <p class="muted">Versione sintetica. (Sì, la legge ama i documenti lunghi. Noi no.)</p>
+      </div>
+
+      <div class="card" style="max-width:900px">
+        <h3>Titolare del trattamento</h3>
+        <p class="muted">
+          Edilcostruzioni Sottili S.r.l. – Referente: Marco Sottili<br>
+          Email: marcosottili88@gmail.com
+        </p>
+
+        <h3>Finalità</h3>
+        <p class="muted">
+          I dati inviati tramite i moduli (nome, telefono, messaggio) vengono usati esclusivamente per ricontattarti
+          e gestire la richiesta di informazioni/preventivo.
+        </p>
+
+        <h3>Base giuridica</h3>
+        <p class="muted">
+          Esecuzione di misure precontrattuali su richiesta dell’interessato (risposta a richiesta preventivo/contatto).
+        </p>
+
+        <h3>Conservazione</h3>
+        <p class="muted">
+          I dati vengono conservati per il tempo necessario a gestire la richiesta e successive comunicazioni correlate.
+        </p>
+
+        <h3>Destinatari / strumenti</h3>
+        <p class="muted">
+          L’invio dei moduli utilizza un servizio esterno (FormSubmit) per recapito via email.
+          Non vengono ceduti a terzi per finalità di marketing.
+        </p>
+
+        <h3>Diritti</h3>
+        <p class="muted">
+          Puoi richiedere accesso, rettifica, cancellazione o limitazione scrivendo a marcosottili88@gmail.com.
+        </p>
+
+        <p class="muted small" style="margin-top:14px">
+          Nota: questa pagina è una base pulita e onesta. Se vuoi una privacy “completa” (cookie, analytics, ecc.), si aggiunge.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <strong>Edilcostruzioni Sottili S.r.l.</strong>
+        <span class="muted">Impresa edile in Valdarno</span>
+      </div>
+      <div class="footer__right muted">© <span id="year"></span></div>
+    </div>
+  </footer>
+
+  <script>
+    const yearEl = document.getElementById("year");
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
